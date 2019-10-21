@@ -1,0 +1,14 @@
+Task:  Degine a system with two buttons such that a red light when any button is pressed during night b green light when both buttons are pressed during night. 
+
+Apparatus: Two LEDs (RED and GREEN), Breadboard, Jumper Wires, Slider switch, Resistors and Arduino UNO. 
+
+**The limiting Current of LEDs is 20mA; hence, resistors of 250ohm are used for 5V input.
+
+Concept: An Arduino is an on board microcontroller. And it can be programmed via language processing.
+Both buttons will return HIGH if they are turned on and glow green light, or else if any one of the button is on and other is off then red light will glow.
+We have used the above properties to build the necessary device for our task.
+
+Precautions:
+1)	Do not short the pins of the Arduino.
+2)	Check the polarity of the LED before connecting.
+3)	Make sure proper resistors are used.
